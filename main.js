@@ -37,7 +37,7 @@ if(localStorage.getItem('loggedInUser')) {
         localStorage.setItem('loggedInUser', loggedInUser);
 
         printUserName();
-
+    
     } else {
        userDoesNotExist();
        console.log('vill inte visa sig');
